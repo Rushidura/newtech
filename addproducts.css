@@ -1,0 +1,95 @@
+
+
+/*----------PRODUCTS CARDS---------*/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 34px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.form-container {
+    background-color: #004e4e47;
+    border: 3px solid #004e4ec0;
+    border-radius: 10px;
+    padding: 30px;
+    width: 700px;
+    box-shadow: 0 0 50px rgba(0, 255, 225, 0.757);
+    margin-top: 50px;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.add-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.add-item-link {
+    color: #004e4ec0;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    color: #ffffffc0;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #004e4ec0;
+    border-radius: 4px;
+    color: #004e4ec0;
+    font-size: 18px;
+}
+
+textarea {
+    resize: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-button {
+    background-color: #004e4ec0;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #00ffffc0;
+    color: #004e4ec0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
